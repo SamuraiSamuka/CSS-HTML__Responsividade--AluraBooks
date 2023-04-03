@@ -13,22 +13,39 @@
 <body>
     <header class="cabecalho">
         <div class="cabecalho-ctn">
-            <input type="checkbox" name="" id="menu" class="cabecalho-ctn__botao">
-            <label for="menu">
-                <span class="cabecalho__menu-hamburguer cabecalho-ctn__img"></span>
-            </label>
-            <ul class="lista-menu">
-                <li class="lista-menu__titulo">Categorias</li>
-                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Programação</a></li>
-                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Front-End</a></li>
-                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Infraestrutura</a></li>
-                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Business</a></li>
-                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Design & UX</a></li>
-            </ul>
+            <div class="cabecalho__menu">
+                <input type="checkbox" name="" id="menu" class="cabecalho-ctn__botao">
+                <label for="menu">
+                    <span class="cabecalho__menu-hamburguer cabecalho-ctn__img"></span>
+                </label>
+                <ul class="lista-menu">
+                    <li class="lista-menu__titulo">Categorias</li>
+                    <li class="lista-menu__item"><a href="#" class="lista-menu__link">Programação</a></li>
+                    <li class="lista-menu__item"><a href="#" class="lista-menu__link">Front-End</a></li>
+                    <li class="lista-menu__item"><a href="#" class="lista-menu__link">Infraestrutura</a></li>
+                    <li class="lista-menu__item"><a href="#" class="lista-menu__link">Business</a></li>
+                    <li class="lista-menu__item"><a href="#" class="lista-menu__link">Design & UX</a></li>
+                </ul>
+            </div>
             <img src="./assets/Logo.svg" alt="Logo da AluraBooks" class="cabecalho-ctn__img">
+            <h1 class="cabecalho-ctn__titulo"><b class="cabecalho-ctn__titulo--negrito">Alura</b>Books</h1>
         </div>
+        <ul class="cabecalho-ctn opcoes">
+            <div class="opcoes__categorias">
+                <li class="opcoes__item">Categorias</li>
+                <ul class="lista-menu">
+                    <li class="lista-menu__item"><a href="#" class="lista-menu__link">Programação</a></li>
+                    <li class="lista-menu__item"><a href="#" class="lista-menu__link">Front-End</a></li>
+                    <li class="lista-menu__item"><a href="#" class="lista-menu__link">Infraestrutura</a></li>
+                    <li class="lista-menu__item"><a href="#" class="lista-menu__link">Business</a></li>
+                    <li class="lista-menu__item"><a href="#" class="lista-menu__link">Design & UX</a></li>
+                </ul>
+            </div>
+            <li class="opcoes__item"><a href="#" class="opcoes__link">Favoritos</a></li>
+            <li class="opcoes__item"><a href="#" class="opcoes__link">Minha Estante</a></li>
+        </ul>
         <div class="cabecalho-ctn">
-            <a href="#"><img src="./assets/Favoritos.svg" alt=""></a>
+            <a href="#"><img src="./assets/Favoritos.svg" alt="" class="cabecalho__favoritos"></a>
             <a href="#"><img src="./assets/Compras.svg" alt=""></a>
             <a href="#"><img src="./assets/Usuário.svg" alt=""></a>
         </div>
