@@ -30,7 +30,7 @@
     font-weight: 400;
     text-align: center;
     color: var(--branco);
-    background: url("../assets/pesquisa.svg") no-repeat .1em;
+    background: url("../assets/Pesquisa.svg") no-repeat .1em;
 }
 
 @media screen and (min-width: 600px) {
