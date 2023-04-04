@@ -11,11 +11,15 @@
     --cor-de-fundo: #ebecee;
     --cor-rodape: #f9f9f9;
     --branco: #fff;
+    --cinza: #858585;
     --laranja: #eb9b00;
     --azul: #002f52;
     --azul-degrade: linear-gradient(97.5deg, #002f52 35.5%, #326589 165%);
     --fonte-principal: "Poppins";
     --fonte-secundaria: "Josefin Sans";
+    --swiper-navigation-size: 28px;
+    --swiper-pagination-bullet-size: 12px;
+    --swiper-pagination-color: var(--azul)
 }
 
 body {

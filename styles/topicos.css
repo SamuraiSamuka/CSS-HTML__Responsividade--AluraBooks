@@ -28,3 +28,21 @@
     font-weight: 700;
     color: var(--branco);
 }
+
+@media screen and (min-width: 768px) {
+    .topicos {
+        padding: 1em 3em;
+    }
+
+    .topicos__titulo {
+        font-size: 24px;
+    }
+
+    .topicos__item {
+        padding: 1.3em;
+    }
+
+    .topicos__link {
+        font-size: 18px;
+    }
+}

@@ -1,5 +1,5 @@
 .carrossel {
-
+    
 }
 
 .carrossel__titulo {
@@ -9,17 +9,17 @@
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 700;
-    padding: 1em 0 0.5em 0;
+    padding: 1.5em 0 1em 0;
 }
 
 .swiper-pagination {
     position: initial;
-    margin: .5em 0;
+    margin: 1em 0;
 }
 
 .swiper-slide img {
     width: 100%;
-    margin-left: -50%;
+    margin-left: -58%;
 }
 
 .swiper-button-prev, .swiper-button-next {
@@ -97,4 +97,57 @@
 
     background-color: var(--laranja);
     width: fit-content;
+}
+
+@media screen and (min-width: 768px) {
+    .carrossel {
+        margin-bottom: 3em;
+    }
+
+    .carrossel__titulo {
+        font-size: 26px;
+        padding-top: 1.5em;
+        padding-bottom: 1em;
+    }
+    
+    .swiper-container {
+        width: 90vw;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+
+    .swiper {
+        width: 60%;
+        overflow: visible;
+    }
+
+    .swiper-pagination {
+        margin: 1.5em 0 3em 0;
+    }
+
+    .swiper-button-prev, .swiper-button-next {
+        display: flex;
+        top: 55%;
+        height: 48px;
+        width: 48px;
+
+        color: var(--branco);
+        border-radius: 3em;
+        padding: .3em;
+        background: var(--azul-degrade);
+    }
+
+    .swiper-button-prev {
+        left: -33%;
+    }
+
+    .swiper-button-next {
+        right: -33%;
+    }
+
+
+    .card {
+        width: 60%;
+        margin: 1em auto 3em;
+    }
 }
