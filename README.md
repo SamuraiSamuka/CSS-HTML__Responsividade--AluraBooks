@@ -5,14 +5,16 @@
 | :sparkles: Nome             | **AluraBooks - mobile-first**
 | :label: Tecnologias         | HTML, CSS e Javascript
 | :link: Bibliotecas          | [Swiper API](https://swiperjs.com/)
-| :rocket: Deploy             | [Ainda sem deploy]()
+| :rocket: Deploy             | [Acesse aqui](alura-books--responsividade.vercel.app)
 | :fire: Cursos               | [HTML e CSS: Responsividade com mobile-first](https://cursos.alura.com.br/course/html-css-responsividade-mobile-first)
 | :mortar_board: Certificados | [Ainda não concluído]()
 
-![](https://3.bp.blogspot.com/-sbRzWXGOtUg/VKyLqYyurJI/AAAAAAAAAAM/wGbmdFErwz4/s1600/site_em_construcao.jpg#vitrinedev)
-https://raw.githubusercontent.com/SamuraiSamuka/ReactJS-Router--OlaMundo/main/src/assets/OlaMundo.png
+![](./assets/Print.png)
 
 # Detalhes do projeto
-[design do figma]()
+* [Design do figma](https://www.figma.com/file/sSMbIqKaGBd66Y8roxTk2p/AluraBooks?node-id=122-4916&t=hbypsWoSRUBCSWgS-0)
 
-## Conceitos aprendidos
+## Conceitos utilizados
+* Abordagem Mobile-first
+* Boas práticas: BEM (Block__Element--Modifier)
+* Menu suspenso sem javascript, apenas CSS.
