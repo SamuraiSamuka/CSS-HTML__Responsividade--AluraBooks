@@ -1,11 +1,11 @@
-# AluraBooks - mobile-first!
+# AluraBooks - Responsividade
 
 | :placard: Vitrine.Dev       |[Samuel Carvalho](https://cursos.alura.com.br/vitrinedev/samurai-samuka)|
 | ------------------------    | --- |
-| :sparkles: Nome             | **AluraBooks - mobile-first**
+| :sparkles: Nome             | **AluraBooks - Responsividade**
 | :label: Tecnologias         | HTML, CSS e Javascript
 | :link: Bibliotecas          | [Swiper API](https://swiperjs.com/)
-| :rocket: Deploy             | [Acesse aqui](alura-books--responsividade.vercel.app)
+| :rocket: Deploy             | [Acesse aqui](https://alura-books--responsividade.vercel.app)
 | :fire: Cursos               | [HTML e CSS: Responsividade com mobile-first](https://cursos.alura.com.br/course/html-css-responsividade-mobile-first)
 | :mortar_board: Certificados | [Ainda não concluído]()
 
