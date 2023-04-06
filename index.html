@@ -11,7 +11,7 @@
     <title>AluraBooks</title>
 </head>
 <body>
-    <header class="cabecalho">
+    <header class="cabecalho container">
         <div class="cabecalho-ctn">
             <div class="cabecalho__menu">
                 <input type="checkbox" name="" id="menu" class="cabecalho-ctn__botao">
@@ -20,11 +20,11 @@
                 </label>
                 <ul class="lista-menu">
                     <li class="lista-menu__titulo">Categorias</li>
-                    <li class="lista-menu__item"><a href="#" class="lista-menu__link">Programação</a></li>
-                    <li class="lista-menu__item"><a href="#" class="lista-menu__link">Front-End</a></li>
-                    <li class="lista-menu__item"><a href="#" class="lista-menu__link">Infraestrutura</a></li>
-                    <li class="lista-menu__item"><a href="#" class="lista-menu__link">Business</a></li>
-                    <li class="lista-menu__item"><a href="#" class="lista-menu__link">Design & UX</a></li>
+                    <li class="lista-menu__item"><p class="lista-menu__link">Programação</p></li>
+                    <li class="lista-menu__item"><p class="lista-menu__link">Front-End</p></li>
+                    <li class="lista-menu__item"><p class="lista-menu__link">Infraestrutura</p></li>
+                    <li class="lista-menu__item"><p class="lista-menu__link">Business</p></li>
+                    <li class="lista-menu__item"><p class="lista-menu__link">Design & UX</p></li>
                 </ul>
             </div>
             <img src="./assets/Logo.svg" alt="Logo da AluraBooks" class="cabecalho-ctn__img">
@@ -34,20 +34,28 @@
             <div class="opcoes__categorias">
                 <li class="opcoes__item">Categorias</li>
                 <ul class="lista-menu">
-                    <li class="lista-menu__item"><a href="#" class="lista-menu__link">Programação</a></li>
-                    <li class="lista-menu__item"><a href="#" class="lista-menu__link">Front-End</a></li>
-                    <li class="lista-menu__item"><a href="#" class="lista-menu__link">Infraestrutura</a></li>
-                    <li class="lista-menu__item"><a href="#" class="lista-menu__link">Business</a></li>
-                    <li class="lista-menu__item"><a href="#" class="lista-menu__link">Design & UX</a></li>
+                    <li class="lista-menu__item"><p class="lista-menu__link">Programação</p></li>
+                    <li class="lista-menu__item"><p class="lista-menu__link">Front-End</p></li>
+                    <li class="lista-menu__item"><p class="lista-menu__link">Infraestrutura</p></li>
+                    <li class="lista-menu__item"><p class="lista-menu__link">Business</p></li>
+                    <li class="lista-menu__item"><p class="lista-menu__link">Design & UX</p></li>
                 </ul>
             </div>
-            <li class="opcoes__item"><a href="#" class="opcoes__link">Favoritos</a></li>
-            <li class="opcoes__item"><a href="#" class="opcoes__link">Minha Estante</a></li>
+            <li class="opcoes__item"><a href="#lancamentos" class="opcoes__link">Lançamentos</a></li>
+            <li class="opcoes__item"><a href="#recentes" class="opcoes__link">Recentes</a></li>
         </ul>
-        <div class="cabecalho-ctn">
-            <a href="#"><img src="./assets/Favoritos.svg" alt="" class="cabecalho__favoritos"></a>
-            <a href="#"><img src="./assets/Compras.svg" alt=""></a>
-            <a href="#"><img src="./assets/Usuário.svg" alt=""></a>
+        <div class="cabecalho-ctn icones">
+            <div class="cabecalho-icone">
+                <img src="./assets/Favoritos.svg" alt="" class="cabecalho__favoritos">
+            </div>
+            <div class="cabecalho-icone">
+                <img src="./assets/Compras.svg" alt="">
+                <p class="cabecalho-icone__texto">Minha sacola</p>
+            </div>
+            <div class="cabecalho-icone">
+                <img src="./assets/Usuário.svg" alt="">
+                <p class="cabecalho-icone__texto">Meu perfil</p>
+            </div>
         </div>
     </header>
     <section class="banner">
@@ -55,7 +63,7 @@
         <p class="banner__texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
         <input type="search" placeholder="Qual será a sua próxima leitura?" class="banner__pesquisa">
     </section>
-    <section class="destaques">
+    <section class="destaques" id="lancamentos">
         <section class="carrossel">
             <h2 class="carrossel__titulo">Últimos lançamentos</h2>
             <!-- Slider main container -->
@@ -96,11 +104,11 @@
                     <li class="botoes__item"><img src="./assets/Favoritos.svg" alt="Favoritar livro"></li>
                     <li class="botoes__item"><img src="./assets/Compras.svg" alt="Adicionar ao carrinho de compras"></li>
                 </ul>
-                <a href="#" class="botoes__ancora">Saiba mais</a>
+                <p class="botoes__ancora">Saiba mais</p>
             </div>
         </div>
     </section>
-    <section class="destaques">
+    <section class="destaques" id="recentes">
         <section class="carrossel">
             <h2 class="carrossel__titulo">Vistos recentemente</h2>
             <!-- Slider main container -->
@@ -142,21 +150,21 @@
                     <li class="botoes__item"><img src="./assets/Favoritos.svg" alt="Favoritar livro"></li>
                     <li class="botoes__item"><img src="./assets/Compras.svg" alt="Adicionar ao carrinho de compras"></li>
                 </ul>
-                <a href="#" class="botoes__ancora">Saiba mais</a>
+                <p href="#" class="botoes__ancora">Saiba mais</p>
             </div>
         </div>
     </section>
     <section class="topicos">
         <h2 class="topicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
         <ul class="topicos__lista">
-            <li class="topicos__item"><a href="#" class="topicos__link">Android</a></li>
-            <li class="topicos__item"><a href="#" class="topicos__link">Marketing Digital</a></li>
-            <li class="topicos__item"><a href="#" class="topicos__link">Agile</a></li>
-            <li class="topicos__item"><a href="#" class="topicos__link">Startups</a></li>
-            <li class="topicos__item"><a href="#" class="topicos__link">HTML & CSS</a></li>
-            <li class="topicos__item"><a href="#" class="topicos__link">Python</a></li>
-            <li class="topicos__item"><a href="#" class="topicos__link">OO</a></li>
-            <li class="topicos__item"><a href="#" class="topicos__link">Java</a></li>
+            <li class="topicos__item"><p class="topicos__link">Android</p></li>
+            <li class="topicos__item"><p class="topicos__link">Marketing Digital</p></li>
+            <li class="topicos__item"><p class="topicos__link">Agile</p></li>
+            <li class="topicos__item"><p class="topicos__link">Startups</p></li>
+            <li class="topicos__item"><p class="topicos__link">HTML & CSS</p></li>
+            <li class="topicos__item"><p class="topicos__link">Python</p></li>
+            <li class="topicos__item"><p class="topicos__link">OO</p></li>
+            <li class="topicos__item"><p class="topicos__link">Java</p></li>
         </ul>
     </section>
     <section class="contato">

@@ -15,6 +15,7 @@
 * [Design do figma](https://www.figma.com/file/sSMbIqKaGBd66Y8roxTk2p/AluraBooks?node-id=122-4916&t=hbypsWoSRUBCSWgS-0)
 
 ## Conceitos utilizados
+* Projeto construindo utilizando HTML, CSS e JS puros
 * Abordagem Mobile-first
 * Boas práticas: BEM (Block__Element--Modifier)
-* Menu suspenso sem javascript, apenas CSS.
+* Menu suspenso apenas com CSS, sem javascript.
