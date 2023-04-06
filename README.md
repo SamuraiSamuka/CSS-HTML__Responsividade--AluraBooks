@@ -9,7 +9,7 @@
 | :fire: Cursos               | [HTML e CSS: Responsividade com mobile-first](https://cursos.alura.com.br/course/html-css-responsividade-mobile-first)
 | :mortar_board: Certificados | [Ainda não concluído]()
 
-![](./assets/Print.png)
+![](./assets/Print.png#vitrinedev)
 
 # Detalhes do projeto
 * [Design do figma](https://www.figma.com/file/sSMbIqKaGBd66Y8roxTk2p/AluraBooks?node-id=122-4916&t=hbypsWoSRUBCSWgS-0)
