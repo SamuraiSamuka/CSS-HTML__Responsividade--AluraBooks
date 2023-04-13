@@ -63,8 +63,11 @@
     text-transform: uppercase;
 }
 
-
 .opcoes {
+    display: none;
+}
+
+.cabecalho-icone__texto {
     display: none;
 }
 
@@ -122,16 +125,32 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .opcoes {
-        justify-self: left;
-    }
-
     .cabecalho-icone {
         display: flex;
         align-items: center;
     }
 
+    .cabecalho-ctn__titulo {
+        margin-right: 80px;
+    }
+
     .icones {
-        gap: 3em;
+        margin-right: .5em;
+        gap: .5em;
+    }
+
+    .cabecalho-icone__texto {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1680px) {
+    .cabecalho-ctn__titulo {
+        margin-right: 0; 
+    }
+    
+    .opcoes {
+        margin-left: 3em;
+        margin-right: auto;
     }
 }

@@ -1,5 +1,4 @@
 .carrossel {
-    
 }
 
 .carrossel__titulo {
@@ -149,5 +148,30 @@
     .card {
         width: 60%;
         margin: 1em auto 3em;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .carrossel__container {
+        display: flex;
+        align-items: center;
+        margin: 0 calc((100% - 1500px) / 2) 3em;
+    }
+
+    .swiper {
+        max-width: 60%;
+    }
+
+    .card {
+        margin: 4em 2em 0;
+    }
+
+    .descricao__titulo {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    .descricao__texto {
+        font-size: 16px;
     }
 }
